@@ -26,7 +26,9 @@ public class Registration {
         return rentalNo;
     }
     
-    
-    
+    public String toString(){
+        return String.format("%-6s\n", rentalNo);
+    }    
 }
+
 
