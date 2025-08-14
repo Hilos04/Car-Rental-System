@@ -11,7 +11,7 @@ package car.rental.system;
 public class ZYTesting {
     
     public static void main(String[] args){
-        Registration reg = new Registration();
+        Rental reg = new Rental();
         
         System.out.println(reg.toString());
     }
