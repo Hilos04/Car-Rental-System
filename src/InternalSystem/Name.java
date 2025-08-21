@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package car.rental.system;
+package InternalSystem;
 
 /**
  *
@@ -35,10 +35,9 @@ public class Name {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
-
-    @Override
-    public String toString() {
-        return String.format("First Name: " + firstName + "Last Name: " + lastName);
+    
+    public String displayFullName() {
+        return String.format("Last Name: " + lastName + "First Name: " + firstName);
     }
     
 }
